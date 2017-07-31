@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<title>RoboRally</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> <!-- jQuery est inclus ! -->
+		<script src="jquery-3.2.1.slim.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+   </head>
+<!-- style="height: 768px;width: 1366px;" -->
+	<body onload="script();">
+	<button class='deletePlayer'>deletePlayer</button>
+	<button class='addPlayer'>addPlayer</button>
+	<button class='deletePv'>PV--</button>
+	<button class='addPv'>PV++</button>
+	 	
+
+		<div class="principale" style=" height: 468px;width: 566px;">
+			<!-- Fenetre principale -->
+			<div class="gauche">
+				<!-- Partie Gauche -->
+				<div class="terrain">
+					<!-- Terrain -->
+					Terrain
+				</div>
+				<div class="choixCartes">
+					<!-- Selection des cartes -->
+					<div class="carteChoisie">1</div>
+					<div class="carteChoisie">1</div>
+					<div class="carteChoisie">1</div>
+					<div class="carteChoisie">1</div>
+					<div class="carteChoisie">1</div>
+				</div>
+			</div>
+			<div  class="droite">
+				<!-- Partie Droite -->
+				<div class="infoAdversaires">
+					<!-- Infos Adversaires -->
+					<!--
+					<div class="infoAdversaire">
+						<div class="advNom">
+							Clement
+						</div>
+						
+						<div class="advBonus">
+							<div class="advFleche">/\</div>
+							<div class="advCarte">Carte</div>
+							<div class="advFleche">\/</div>
+						</div>
+						<div class="advPret">
+							OK
+						</div>
+					</div>
+					-->
+					<div class="infoAdversaire"><div class="advNom">Clement</div><div class="advBonus"><div class="advFleche">/\</div><div class="advCarte">Carte</div><div class="advFleche">\/</div></div><div class="advPret">OK</div></div>
+					<div class="infoAdversaire"><div class="advNom">Clement</div><div class="advBonus"><div class="advFleche">/\</div><div class="advCarte">Carte</div><div class="advFleche">\/</div></div><div class="advPret">OK</div></div>
+					<div class="infoAdversaire"><div class="advNom">Clement</div><div class="advBonus"><div class="advFleche">/\</div><div class="advCarte">Carte</div><div class="advFleche">\/</div></div><div class="advPret">OK</div></div>
+					<div class="infoAdversaire"><div class="advNom">Clement</div><div class="advBonus"><div class="advFleche">/\</div><div class="advCarte">Carte</div><div class="advFleche">\/</div></div><div class="advPret">OK</div></div>
+					<div class="infoAdversaire"><div class="advNom">Clement</div><div class="advBonus"><div class="advFleche">/\</div><div class="advCarte">Carte</div><div class="advFleche">\/</div></div><div class="advPret">OK</div></div>
+					<div class="infoAdversaire"><div class="advNom">Clement</div><div class="advBonus"><div class="advFleche">/\</div><div class="advCarte">Carte</div><div class="advFleche">\/</div></div><div class="advPret">OK</div></div>
+
+				</div>
+				<div  class="infoPerso">
+					<!-- infos Perso -->
+					<div class="propositionCartes">
+						<!-- proposition des cartes -->
+						<div class="carte">1</div>
+						<div class="carte">1</div>
+						<div class="carte">1</div>
+						<div class="carte">1</div>
+						<div class="carte">1</div>
+						<div class="carte">1</div>
+						<div class="carte">1</div>
+						<div class="carte">1</div>
+						<div class="carte">1</div>
+					</div>
+					<div class="degats">
+						<!-- Points de vie -->
+						PV
+						<div class="degat">1</div>
+						<div class="degat">1</div>
+						<div class="degat">1</div>
+						<div class="degat">1</div>
+						<div class="degat">1</div>
+						<div class="degat">1</div>
+						<div class="degat">1</div>
+						<div class="degat">1</div>
+					</div>
+					<div class="listeBonus">
+						<!-- Bonus -->
+						<div class="fleche">UP</div>
+						<div class="bonus">Carte</div>
+						<div class="fleche">DOWN</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<!-- <script>
+		$(document).ready(function(){
+			//$(".infoAdversaires").append("");
+//			$(".infoAdversaires").append('<div class="infoAdversaire"><div class="advNom">Clement</div><div class="advBonus"><div class="advFleche">/\</div><div class="advCarte">Carte</div><div class="advFleche">\/</div></div><div class="advPret">OK</div></div>');
+       });
+	</script>
+ -->
+	</body>
+</html>

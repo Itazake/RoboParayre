@@ -1,0 +1,171 @@
+.principale
+{
+	height: 100vh;
+	width: 100vh;
+	background-color: #cccccc;
+
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+}
+
+.gauche
+{
+	width: 50%;
+	background-color: red;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.terrain
+{
+	height: 100%;
+	background-color: grey;
+}
+.choixCartes
+{
+	height: 50%;
+	background-color: green;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.carteChoisie
+{
+	background-color: red;
+	width: 15%;
+	height: 50%;
+}
+
+.droite
+{
+	width: 50%;
+	background-color: blue;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.infoAdversaires
+{
+	background-color: purple;
+	height: 50%;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: stretch;
+	flex-wrap: wrap;
+}
+.infoAdversaire
+{
+	width: 50%;
+	height: 25%;
+	background-color: white;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+.advNom
+{
+	background-color: blue;
+	width: 50%;
+}
+.advBonus
+{
+	background-color: green;
+	width: 40%;
+	
+	display: flex;
+	flex-direction: row;
+}
+.advFleche
+{
+	background-color: white;
+	width: 15%;
+}
+
+.advCarte
+{
+	background-color: pink;
+	width: 70%;
+}
+.advPret
+{
+	background-color: red;
+	width: 10%;
+}
+
+.infoPerso
+{
+	background-color: red;
+	height: 50%;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.propositionCartes
+{
+	background-color: #aaaa00;
+	width: 60%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.carte
+{
+	background-color: blue;
+	width: 20%;
+	height: 30%;
+}
+.degats
+{
+	background-color: pink;
+	width: 10%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+}
+.degat
+{
+	width: 10px;
+	height: 20px;
+	background-color: red;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+.listeBonus
+{
+	background-color: #00aaaa;
+	width: 30%;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: stretch
+}
+
+.fleche
+{
+	background-color: red;
+	height: 10%;
+}
+
+.bonus
+{
+	background-color: violet;
+	height: 80%;
+}
